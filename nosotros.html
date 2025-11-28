@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - El Lápiz Mágico</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        /* Estilos específicos de esta página */
+        .team-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #00796b;
+        }
+        .full-height {
+            height: 100%;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+    </style>
+</head>
+<body class="grey lighten-5">
+
+    <ul id="dropdown_categorias" class="dropdown-content">
+        <li><a href="index.html#cuadernos" class="teal-text">Cuadernos</a></li>
+        <li><a href="index.html#escritura" class="teal-text">Escritura</a></li>
+        <li class="divider"></li>
+        <li><a href="index.html#mochilas" class="teal-text">Mochilas</a></li>
+    </ul>
+
+    <nav class="teal darken-2">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">
+                <i class="material-icons left">school</i>El Lápiz Mágico
+            </a>
+            
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li>
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown_categorias">
+                        Categorías<i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+
+                <li><a href="index.html#ofertas">Ofertas</a></li>
+                <li class="active"><a href="#">Nosotros y Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section container">
+        <h3 class="center-align teal-text text-darken-3">Nuestra Historia</h3>
+        <br>
+        <div class="row valign-wrapper"> 
+            <div class="col s12 m7">
+                <h5 class="orange-text text-darken-3">Pasión por la Educación desde 2010</h5>
+                <p class="flow-text text-justify">
+                    Comenzamos en un pequeño garaje vendiendo lápices y cuadernos. Hoy, "El Lápiz Mágico" es el proveedor líder de útiles escolares en la región.
+                </p>
+                <p>
+                    Creemos que cada niño merece herramientas de calidad para aprender. Por eso, nuestro sistema de distribución asegura que los materiales lleguen a tiempo para el primer día de clases.
+                </p>
+            </div>
+
+            <div class="col s12 m5 center-align">
+                <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80" class="responsive-img z-depth-2 rounded">
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section grey lighten-4">
+        <div class="container">
+            <h4 class="center-align teal-text">Nuestro Equipo</h4>
+            <p class="center-align grey-text">Conoce a quienes hacen posible la magia.</p>
+            <br>
+
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel center-align hoverable">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="circle team-img responsive-img">
+                        <h5>Carlos Ruiz</h5>
+                        <p class="teal-text">Gerente General</p>
+                        <p class="light">Encargado de que todo funcione como un reloj suizo.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel center-align hoverable">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="circle team-img responsive-img">
+                        <h5>Ana López</h5>
+                        <p class="teal-text">Ventas</p>
+                        <p class="light">Experta en encontrar justo lo que necesitas para tu lista.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel center-align hoverable">
+                        <img src="https://randomuser.me/api/portraits/men/85.jpg" class="circle team-img responsive-img">
+                        <h5>David Meza</h5>
+                        <p class="teal-text">Logística</p>
+                        <p class="light">Asegura que tu pedido llegue en 24 horas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container">
+        <h4 class="center-align orange-text text-darken-3">Contáctanos</h4>
+        <div class="row">
+            
+            <div class="col s12 m5">
+                <div class="card-panel teal white-text full-height">
+                    <h5><i class="material-icons left">location_city</i>Visítanos</h5>
+                    <p>Ven a nuestra tienda física para ver los productos.</p>
+                    <br>
+                    <p><b>Dirección:</b><br>Av. Amazonas y Naciones Unidas, Quito</p>
+                    <p><b>Teléfono:</b><br>+593 99 999 9999</p>
+                    <p><b>Email:</b><br>ventas@lapizmagico.com</p>
+                    
+                    <div class="divider"></div>
+                    <br>
+                    <div class="grey darken-3 valign-wrapper center-align" style="height: 200px; width: 100%;">
+                        <span class="grey-text">Mapa de Google aquí</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m7">
+                <div class="card-panel">
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">Nombre</label>
+                            </div>
+                            
+                            <div class="input-field col s12 m6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Apellido</label>
+                            </div>
+                        </div> 
+                        
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Correo Electrónico</label>
+                                <span class="helper-text" data-error="Email inválido" data-success="Correcto">Te responderemos aquí</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Mensaje</label>
+                            </div>
+                        </div>
+
+                        <div class="row center-align">
+                            <button class="btn waves-effect waves-light orange darken-3 btn-large" type="submit" name="action">
+                                Enviar Mensaje
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="page-footer teal darken-3">
+        <div class="container">
+            © 2025 El Lápiz Mágico
+            <a class="grey-text text-lighten-4 right" href="index.html">Volver al Inicio</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, {
+                coverTrigger: false,
+                hover: true
+            });
+        });
+    </script>
+
+</body>
+</html>
